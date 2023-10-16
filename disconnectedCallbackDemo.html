@@ -1,0 +1,10 @@
+<template>
+    <lightning-card variant="Narrow" title="Disconnected Callback" icon-name="custom:custom23"></lightning-card>
+    <div class="slds-m-around_large">
+        <template if:true={showHide}>
+            <c-prop-demo></c-prop-demo>
+        </template>
+    <lightning-button variant="brand" label="Show hide prop demo" title="show hide demo" 
+    onclick={handleClick}></lightning-button>
+    </div>
+</template>
